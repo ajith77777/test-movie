@@ -1,0 +1,54 @@
+nav{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #326fcd;
+    color: white;
+}
+
+nav img {
+    width: 30px;
+    height: 80%;
+}
+
+
+.search_area{
+    width: 40%;
+    height: auto;
+    border: 4px solid rgb(0, 15, 181);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button , input{
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+button:hover{
+    color: white;
+    background-color: #326fcd;
+    
+}
+input:hover{
+    box-shadow: 1px 3px #326fcd;
+}
+
+label{
+    font-size: large;
+    font-weight: 600;
+}
+
+
+h2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+

@@ -1,0 +1,26 @@
+<nav><img src="https://i.pinimg.com/originals/80/ea/64/80ea641f1af7137a5fb41197c07de9a7.png" alt="" srcset=""(click)="logo()">
+  Movie Search
+</nav>
+
+<div class="search_area">
+  <form action="">
+    <label class="mt-3">Movie Name</label>
+    <input type="text" id="movie_name" class="form-control w-75 mt-3">
+    <button type="button" class="btn btn-outline-primary btn-lg w-25 mt-3 mb-3" (click)="search()">Find</button>
+  </form>
+</div>
+
+
+
+<!-- Create a movie website using angular.
+Build a movie search application that fetches movie data from the API
+(https://www.omdbapi.com/?apikey=${apiKey}&t=${moviename}) based on user input (moviename) and
+displays details such as title, Released date, actors, plot, poster and ratings.
+apikey: fa1c9c03 -->
+<div class="result">
+  <h2>{{movie_name }}</h2>
+  <h2> {{Released}}</h2>
+  <h2> {{actors}} </h2>
+  <h2> {{plot}} </h2>
+  <h2> {{ratings}} </h2>
+</div>
